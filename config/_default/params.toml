@@ -1,3 +1,4 @@
+# Dolt 主題版本
 version = "0.3.X"
 [page]
 [page.math]
@@ -8,3 +9,29 @@ inlineLeftDelimiter = "\\("
 inlineRightDelimiter = "\\)"
 copyTex = true
 mhchem = true
+
+# Header Config
+[header]
+
+# Page Config
+[page]
+  # 是否使用系列導航
+  seriesNavigation = true
+  # 是否启用字数统计
+  enableWordCount = false
+  # 是否启用阅读时间估计
+  enableReadingTime = false
+
+  # 目錄配置
+  [page.toc]
+    # 是否使用目录
+    enable = true
+    # 是否保持使用文章前面的静态目录
+    keepStatic = false
+    # 是否使侧边目录自动折叠展开
+    auto = true
+
+  # 代碼配置
+  [page.code]
+     # 默认展开显示的代码行数
+    maxShownLines = 10
