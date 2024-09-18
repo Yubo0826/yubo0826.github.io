@@ -1,23 +1,21 @@
 # Dolt 主題版本
 version = "0.3.X"
 [page]
-[page.math]
-enable = true
-blockLeftDelimiter = "\\["
-blockRightDelimiter = "\\]"
-inlineLeftDelimiter = "\\("
-inlineRightDelimiter = "\\)"
-copyTex = true
-mhchem = true
-
-# Page Config
-[page]
   # 是否使用系列導航
   seriesNavigation = true
   # 是否启用字数统计
   enableWordCount = false
   # 是否启用阅读时间估计
   enableReadingTime = false
+  
+  [page.math]
+    enable = true
+    blockLeftDelimiter = "\\["
+    blockRightDelimiter = "\\]"
+    inlineLeftDelimiter = "\\("
+    inlineRightDelimiter = "\\)"
+    copyTex = true
+    mhchem = true
 
   # 目錄配置
   [page.toc]
