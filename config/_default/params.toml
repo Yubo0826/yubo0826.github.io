@@ -10,9 +10,6 @@ inlineRightDelimiter = "\\)"
 copyTex = true
 mhchem = true
 
-# Header Config
-[header]
-
 # Page Config
 [page]
   # 是否使用系列導航
@@ -33,5 +30,5 @@ mhchem = true
 
   # 代碼配置
   [page.code]
-     # 默认展开显示的代码行数
+    # 默认展开显示的代码行数
     maxShownLines = 10
