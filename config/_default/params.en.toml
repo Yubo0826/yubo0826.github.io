@@ -24,7 +24,7 @@
     subtitle = "簡單紀錄自修、工作的學習歷程"
     # whether to use typeit animation for subtitle
     # 是否为副标题显示打字机动画
-    typeit = false
+    typeit = true
     # whether to show social links
     # 是否显示社交账号
     social = true
