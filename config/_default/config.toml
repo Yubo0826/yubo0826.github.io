@@ -2,4 +2,4 @@ baseURL = "https://yubo0826.github.io/"
 languageCode = "zh-tw"
 title = "David Bo Blog"
 theme = "DoIt"
-summaryLength=20
+summaryLength = 0
