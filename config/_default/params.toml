@@ -1,5 +1,25 @@
 # Dolt 主題版本
 version = "0.3.X"
+
+# Section (所有文章) 页面配置
+[section]
+  # special amount of posts in each section page
+  # section 页面每页显示文章数量
+  paginate = 30
+  # date format (month and day)
+  # 日期格式 (月和日)
+  dateFormat = "01-02"
+  # amount of RSS pages
+  # RSS 文章数目
+  rss = 10
+  # recently updated posts settings
+  # 最近更新文章设置
+  [section.recentlyUpdated]
+    enable = true
+    rss = true
+    days = 30
+    maxCount = 10
+    
 [page]
   # 是否使用系列導航
   seriesNavigation = true
