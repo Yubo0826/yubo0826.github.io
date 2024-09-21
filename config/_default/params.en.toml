@@ -21,7 +21,7 @@
     title = ""
     # subtitle shown in home page
     # 主页显示的网站副标题
-    subtitle = "簡單紀錄自修、工作的學習歷程"
+    subtitle = "Hello I'm David，這裡是簡單紀錄自修、工作的部落格"
     # whether to use typeit animation for subtitle
     # 是否为副标题显示打字机动画
     typeit = true
@@ -71,7 +71,7 @@
   Ko-Fi = ""
   Lastfm = ""
   Liberapay = ""
-  Linkedin = "https://www.linkedin.com/in/boyuchou/"
+  Linkedin = "boyuchou"
   Linktree = ""
   Matrix = ""
   Medium = ""
