@@ -1,10 +1,10 @@
 {{ $url := .Destination }}
-{{ with resources.GetRemote $url }}
-  {{ with .Err }}
-    {{ errorf "Failed to download image %s" . }}
-  {{ else }}
-    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
-  {{ end }}
+{{ $remote := resources.GetRemote $url }}
+{{ if $remote }}
+  <img src="{{ $remote.RelPermalink }}" width="{{ $remote.Width }}" height="{{ $remote.Height }}"
+    {{- with $.Text }} alt="{{ . }}"{{ end -}}
+    {{- with $.Title }} title="{{ . }}"{{ end -}}
+    style="width: auto;height: auto;">
 {{ else }}
-  {{ errorf "Invalid image url %q" $url }}
+  {{ warnf  "Failed to download image %s" $url }}
 {{ end }}
