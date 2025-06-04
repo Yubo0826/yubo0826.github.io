@@ -49,4 +49,4 @@ version = "0.3.X"
   # 代碼配置
   [page.code]
     # 默认展开显示的代码行数
-    maxShownLines = 75
+    maxShownLines = 40
